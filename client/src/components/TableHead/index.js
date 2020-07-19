@@ -11,6 +11,6 @@ function TableHead(props) {
             <th scope="col">Phone</th>
         </tr>
   );
-}
+};
 
 export default TableHead;
