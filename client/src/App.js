@@ -1,12 +1,11 @@
 import React, {Component, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import employeesData from "./employees.json"
-import Wrapper from "./components/Wrapper"
-import Header from "./components/Header"
-import Table from "./components/Table"
-import TableHead from "./components/TableHead"
-import TableRow from "./components/TableRow"
+import employeesData from "./employees.json";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import TableHead from "./components/TableHead";
+import TableRow from "./components/TableRow";
 
 
 export default function App() {
