@@ -1,29 +1,75 @@
-# Create React Express App
+# Employee_Directory
+Employee Directory
 
-## About This Boilerplate
+A directory of employees which can be searched.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Table of Contents
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+* [Criteria](#criteria)
 
-## Starting the app locally
+* [Heroku](#Heroku)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+* [Installation](#installation)
+
+* [Usage](#Usage)
+
+* [Screenshots](#Screenshots)
+
+* [Questions](#questions)
+
+## Criteria
+
+Given a table of random users, when the user loads the page, a table of employees should render.
+The user should be able to:
+
+  * Sort the table by at least one category
+
+  * Filter the users by at least one property.
+
+
+```
+As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+```
+
+## Heroku
+
+The deployed app on Heroku can be found here:
+
+https://mybelovedmonstersdirectory.herokuapp.com/
+
+## Installation
+
+To install necessary dependencies, run the following commands:
 
 ```
 npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
 
 ```
-npm start
+
+## Usage
+
+```
+AS AN employee
+I WANT to be able to search for my colleagues 
+SO THAT I can contact them about work
 ```
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Screenshots
 
-## Deployment (Heroku)
+![./markdownAssets/Directory.png](https://github.com/rehamilton/Employee_Directory/blob/master/markdownAssets/Directory.PNG)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+![./markdownAssets/Serach.png](https://github.com/rehamilton/Employee_Directory/blob/master/markdownAssets/Search.PNG)
+
+
+## Questions
+
+If you have any questions about the repo or want to open an issue contact rehamilton on roz_e4@hotmail.com
+
+
+<img src="https://avatars1.githubusercontent.com/u/59821631?v=4" alt="avatar" style="border-radius: 16px" width="30" />
+
+
+
+![GitHub repo size](https://img.shields.io/github/repo-size/rehamilton/Budget_Tracker)
+
+
